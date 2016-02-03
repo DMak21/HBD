@@ -93,6 +93,17 @@ TweenMax.to(".star12", 2, {y:700, yoyo:true, repeat:10, rotation:720, ease: Powe
 
 function animate() {
 (function(){
+    document.getElementById("star4p").style.top = Math.random() * 160 + 20 +'px';
+    document.getElementById("star4p").style.left = Math.random() * 164 + 21 + 'px';
+    TweenMax.from(document.getElementById("star4p"), 0.75,
+    {
+        opacity:0,
+        scale:0,
+        ease: Back.easeOut.config(1.7)
+    });
+    setTimeout(arguments.callee, 750);
+})();
+(function(){
     document.getElementById("star1").style.top = Math.random() * 160 + 20 +'px';
     document.getElementById("star1").style.left = Math.random() * 164 + 205 + 'px';
     TweenMax.from(document.getElementById("star1"), 0.75,
@@ -140,6 +151,29 @@ function animate() {
     document.getElementById("star5").style.top = Math.random() * 160 + 20 + 'px';
     document.getElementById("star5").style.left = Math.random() * 164 + 941 + 'px';
     TweenMax.from(document.getElementById("star5"), 0.75,
+    {
+        opacity:0,
+        scale:0,
+        ease: Back.easeOut.config(1.7)
+    });
+    setTimeout(arguments.callee, 750);
+})();
+(function(){
+    document.getElementById("star7p").style.top = Math.random() * 160 + 20 + 'px';
+    document.getElementById("star7p").style.left = Math.random() * 164 + 1125 + 'px';
+    TweenMax.from(document.getElementById("star7p"), 0.75,
+    {
+        opacity:0,
+        scale:0,
+        ease: Back.easeOut.config(1.7)
+    });
+    setTimeout(arguments.callee, 750);
+})();
+    
+(function(){
+    document.getElementById("star5p").style.top = Math.random() * 160 + 200 +'px';
+    document.getElementById("star5p").style.left = Math.random() * 164 + 21 + 'px';
+    TweenMax.from(document.getElementById("star5p"), 0.75,
     {
         opacity:0,
         scale:0,
@@ -203,6 +237,29 @@ function animate() {
     setTimeout(arguments.callee, 750);
 })();
 (function(){
+    document.getElementById("star8p").style.top = Math.random() * 160 + 200 + 'px';
+    document.getElementById("star8p").style.left = Math.random() * 164 + 1125 + 'px';
+    TweenMax.from(document.getElementById("star8p"), 0.75,
+    {
+        opacity:0,
+        scale:0,
+        ease: Back.easeOut.config(1.7)
+    });
+    setTimeout(arguments.callee, 750);
+})();
+    
+(function(){
+    document.getElementById("star6p").style.top = Math.random() * 160 + 380 +'px';
+    document.getElementById("star6p").style.left = Math.random() * 164 + 21 + 'px';
+    TweenMax.from(document.getElementById("star6p"), 0.75,
+    {
+        opacity:0,
+        scale:0,
+        ease: Back.easeOut.config(1.7)
+    });
+    setTimeout(arguments.callee, 750);
+})();
+(function(){
     document.getElementById("star11").style.top = Math.random() * 160 + 380 + 'px';
     document.getElementById("star11").style.left = Math.random() * 164 + 205 + 'px';
     TweenMax.from(document.getElementById("star11"), 0.75,
@@ -250,6 +307,17 @@ function animate() {
     document.getElementById("star3p").style.top = Math.random() * 160 + 380 + 'px';
     document.getElementById("star3p").style.left = Math.random() * 164 + 941 + 'px';
     TweenMax.from(document.getElementById("star3p"), 0.75,
+    {
+        opacity:0,
+        scale:0,
+        ease: Back.easeOut.config(1.7)
+    });
+    setTimeout(arguments.callee, 750);
+})();
+    (function(){
+    document.getElementById("star9p").style.top = Math.random() * 160 + 380 + 'px';
+    document.getElementById("star9p").style.left = Math.random() * 164 + 1125 + 'px';
+    TweenMax.from(document.getElementById("star9p"), 0.75,
     {
         opacity:0,
         scale:0,

@@ -1,14 +1,16 @@
-.wrapper {
-
-    background-color: yellow;
-
+@font-face {
+    font-family: Simone;
+    src: url(simone.ttf);
 }
 
 
-.title {
-    font-family: 'Great Vibes', cursive;
 
+
+#title {
+    font-family: 'Simone';
+    font-size: 96px;
     text-align: center;
+    color: #E97F02
 }
 
 .gift {
@@ -63,6 +65,24 @@
 #star3p {
     position: fixed;
 }
+#star4p {
+    position: fixed;
+}
+#star5p {
+    position: fixed;
+}
+#star6p {
+    position: fixed;
+}
+#star7p {
+    position: fixed;
+}
+#star8p {
+    position: fixed;
+}
+#star9p {
+    position: fixed;
+}
 .balloon-blue {
     position: inherit
 }
@@ -71,3 +91,25 @@
     align-items: center
 }
 
+
+.fb-comments {
+    background-color: #F8CA00;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    
+}
+
+body {
+    background-color: #490A3D
+}
+
+.container_16 {
+    background-color: #BD1550
+}
+
+#title {
+    text-align: center
+}

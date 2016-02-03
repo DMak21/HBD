@@ -6,75 +6,77 @@
     text-shadow: 2px 2px #ff0000;
 }
 
-.gift {
+#gift-box {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
+
 
 
 #star1 {
-    position: fixed;
+    position: absolute;
 }
 #star2 {
-    position: fixed;
+    position: absolute;
 }
 #star3 {
-    position: fixed;
+    position: absolute;
 }
 #star4 {
-    position: fixed;
+    position: absolute;
 }
 #star5 {
-    position: fixed;
+    position: absolute;
 }
 #star6 {
-    position: fixed;
+    position: absolute;
 }
 #star7 {
-    position: fixed;
+    position: absolute;
 }
 #star8 {
-    position: fixed;
+    position: absolute;
 }
 #star9 {
-    position: fixed;
+    position: absolute;
 }
 #star10 {
-    position: fixed;
+    position: absolute;
 }
 #star11 {
-    position: fixed;
+    position: absolute;
 }
 #star12 {
-    position: fixed;
+    position: absolute;
 }
 #star1p {
-    position: fixed;
+    position: absolute;
 }
 #star2p {
-    position: fixed;
+    position: absolute;
 }
 #star3p {
-    position: fixed;
+    position: absolute;
 }
 #star4p {
-    position: fixed;
+    position: absolute;
 }
 #star5p {
-    position: fixed;
+    position: absolute;
 }
 #star6p {
-    position: fixed;
+    position: absolute;
 }
 #star7p {
-    position: fixed;
+    position: absolute;
 }
 #star8p {
-    position: fixed;
+    position: absolute;
 }
 #star9p {
-    position: fixed;
+    position: absolute;
 }
 .balloon-blue {
     position: inherit
@@ -101,4 +103,12 @@ body {
 
 .container_16 {
     background-color: #BD1550
+}
+
+
+img:hover{
+    -webkit-filter: drop-shadow(2px 2px 0 #00f)
+                  drop-shadow(-2px -2px 0 #00f);
+  filter: drop-shadow(2px 2px 0 #00f) 
+          drop-shadow(-2px -2px 0 #00f);
 }

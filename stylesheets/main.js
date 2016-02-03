@@ -1,12 +1,10 @@
 /* CANVAS ANIMATION
 var ctx = document.getElementById("canvas").getContext("2d");
-
 function drawStar(cx, cy) {
     var rot = Math.PI / 2 * 3;
     var x = cx;
     var y = cy;
     var step = Math.PI / 5;
-
     ctx.strokeSyle = "#000";
     ctx.beginPath();
     ctx.moveTo(cx, cy - 12)
@@ -15,7 +13,6 @@ function drawStar(cx, cy) {
         y = cy + Math.sin(rot) * 12;
         ctx.lineTo(x, y)
         rot += step
-
         x = cx + Math.cos(rot) * 5;
         y = cy + Math.sin(rot) * 5;
         ctx.lineTo(x, y)
@@ -30,25 +27,18 @@ function drawStar(cx, cy) {
     
     
 }
-
 function random(min, max) {
   return (min + Math.random() * (max - min) + 0.5) | 0;
 }
-
 function tweenToRandomColor() {
   TweenMax.to(ctx, 2, {colorProps:{fillStyle:"rgb(" + random(0,255) + "," + random(0,255) + "," + random(0,255) + ")"}, onUpdate:drawStar(20, 80), onComplete:tweenToRandomColor});
 }
-
 tweenToRandomColor();
-
 function loop() {
     drawStar(80, 40);
 } 
 TweenMax.to(ctx, 2, {xpos:50, ypos:40, repeat:-1, yoyo:true});
 loop();
-
-
-
 TweenMax.to(".balloon-blue", 8, {
     opacity:0,
     scale:0,
@@ -66,7 +56,6 @@ TweenMax.to(".balloon-red", 8, {
     borderColor:"white",
     borderRadius:26
 });
-
 TweenMax.from(".star1", 2, {
     opacity:0
 });
@@ -77,7 +66,6 @@ TweenMax.to(".star1", 2, {
     repeatDelay:0.5, 
     ease: Power0.easeNone
 });
-
 TweenMax.to(".star2", 2, {y:700, repeat:10, rotation:720, repeatDelay:0.5, ease: Power0.easeNone});
 TweenMax.to(".star3", 2, {y:700, repeat:10, rotation:720, repeatDelay:0.5, ease: Power0.easeNone});
 TweenMax.to(".star4", 2, {y:700, repeat:10, rotation:720, repeatDelay:0.5, ease: Power0.easeNone});
@@ -332,20 +320,16 @@ function animate() {
 function flickerAnimate(object) {
     x = Math.random() * 2 + 1
     TweenMax.fromTo(object, x,
-
     {
         y:0
     },{
         y:640,
         rotation: Math.random() * 720,
-
         repeat:3,
         delay:3 - x
     });
     
-
 }
-
 function animate() {
     flickerAnimate(".star1");
 flickerAnimate(".star2");
@@ -360,9 +344,6 @@ flickerAnimate(".star10");
 flickerAnimate(".star11");
 flickerAnimate(".star12");
 }
-
-
 document.getElementById("box").onclick = function() {animate()}; */
 
-document.getElementById("title").onclick = function() {animate()};
-
+document.getElementById("gift-box").onclick = function() {animate()};

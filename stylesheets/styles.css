@@ -19,49 +19,49 @@
 
 
 #star1 {
-    position: absolute;
+    position: fixed;
 }
 #star2 {
-    position: absolute;
+    position: fixed;
 }
 #star3 {
-    position: absolute;
+    position: fixed;
 }
 #star4 {
-    position: absolute;
+    position: fixed;
 }
 #star5 {
-    position: absolute;
+    position: fixed;
 }
 #star6 {
-    position: absolute;
+    position: fixed;
 }
 #star7 {
-    position: absolute;
+    position: fixed;
 }
 #star8 {
-    position: absolute;
+    position: fixed;
 }
 #star9 {
-    position: absolute;
+    position: fixed;
 }
 #star10 {
-    position: absolute;
+    position: fixed;
 }
 #star11 {
-    position: absolute;
+    position: fixed;
 }
 #star12 {
-    position: absolute;
+    position: fixed;
 }
 #star1p {
-    position: absolute;
+    position: fixed;
 }
 #star2p {
-    position: absolute;
+    position: fixed;
 }
 #star3p {
-    position: absolute;
+    position: fixed;
 }
 .balloon-blue {
     position: inherit

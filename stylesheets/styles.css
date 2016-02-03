@@ -1,16 +1,9 @@
-@font-face {
-    font-family: Simone;
-    src: url(simone.ttf);
-}
-
-
-
-
 #title {
-    font-family: 'Simone';
+    font-family: 'Great Vibes';
     font-size: 96px;
     text-align: center;
-    color: #E97F02
+    color: #E97F02;
+    text-shadow: 2px 2px #ff0000;
 }
 
 .gift {
@@ -108,8 +101,4 @@ body {
 
 .container_16 {
     background-color: #BD1550
-}
-
-#title {
-    text-align: center
 }

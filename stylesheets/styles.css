@@ -1,0 +1,73 @@
+.wrapper {
+
+    background-color: yellow;
+
+}
+
+
+.title {
+    font-family: 'Great Vibes', cursive;
+
+    text-align: center;
+}
+
+.gift {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#star1 {
+    position: absolute;
+}
+#star2 {
+    position: absolute;
+}
+#star3 {
+    position: absolute;
+}
+#star4 {
+    position: absolute;
+}
+#star5 {
+    position: absolute;
+}
+#star6 {
+    position: absolute;
+}
+#star7 {
+    position: absolute;
+}
+#star8 {
+    position: absolute;
+}
+#star9 {
+    position: absolute;
+}
+#star10 {
+    position: absolute;
+}
+#star11 {
+    position: absolute;
+}
+#star12 {
+    position: absolute;
+}
+#star1p {
+    position: absolute;
+}
+#star2p {
+    position: absolute;
+}
+#star3p {
+    position: absolute;
+}
+.balloon-blue {
+    position: inherit
+}
+
+.grid_4 {
+    align-items: center
+}
+

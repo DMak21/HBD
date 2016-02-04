@@ -78,6 +78,26 @@ TweenMax.to(".star10", 2, {y:700, repeat:10, rotation:720, repeatDelay:0.5, ease
 TweenMax.to(".star11", 2, {y:700, yoyo:true, repeat:10, rotation:720, ease: Power0.easeNone});
 TweenMax.to(".star12", 2, {y:700, yoyo:true, repeat:10, rotation:720, ease: Power0.easeNone});
 */
+/*
+var iden = document.getElementById("star8p");
+var mul1 = 160;
+var add1 = 200;
+var mul2 = 164;
+var add2 = 1125;
+
+function ani(iden, mul1, add1, mul2, add2){
+    iden.style.top = Math.random() * mul1 + add1 + 'px';
+    iden.style.left = Math.random() * mul2 + add2 + 'px';
+    TweenMax.from(iden, 0.75,
+    {
+        opacity:0,
+        scale:0,
+        ease: Back.easeOut.config(1.7)
+    });
+    setTimeout(arguments.callee, 750);
+}
+*/
+
 
 function animate() {
 (function(){

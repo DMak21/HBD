@@ -2,7 +2,7 @@
     font-family: 'Great Vibes';
     font-size: 96px;
     text-align: center;
-    color: #E97F02;
+    color: #F38630;
     text-shadow: 2px 2px #ff0000;
     margin: 0;
 }
@@ -89,17 +89,17 @@
 
 
 .fb-comments {
-    background-color: #F8CA00;
+    background-color: #E0E4CC;
     margin-left: auto;
     margin-right: auto;
 }
 
 body {
-    background-color: #490A3D
+    background-color: #A7DBD8
 }
 
 .container_16 {
-    background-color: #BD1550
+    background-color: #69D2E7
 }
 
 
@@ -126,11 +126,11 @@ p {
 #bharati {
     font-family: 'Candal', sans-serif;
     font-size: 64px;
-    color: #E97F02;
+    color: #FA6900;
     text-shadow: 2px 2px #ff0000;
     
 }
 
 #wishes {
-    background-color: #8A9B0F;
+    background-color: #E0E4CC;
 }

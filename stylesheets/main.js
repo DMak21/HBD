@@ -78,12 +78,12 @@ TweenMax.to(".star10", 2, {y:700, repeat:10, rotation:720, repeatDelay:0.5, ease
 TweenMax.to(".star11", 2, {y:700, yoyo:true, repeat:10, rotation:720, ease: Power0.easeNone});
 TweenMax.to(".star12", 2, {y:700, yoyo:true, repeat:10, rotation:720, ease: Power0.easeNone});
 */
-/*
-var iden = document.getElementById("star8p");
-var mul1 = 160;
-var add1 = 200;
-var mul2 = 164;
-var add2 = 1125;
+
+var iden;
+var mul1;
+var add1;
+var mul2;
+var add2;
 
 function ani(iden, mul1, add1, mul2, add2){
     iden.style.top = Math.random() * mul1 + add1 + 'px';
@@ -94,9 +94,94 @@ function ani(iden, mul1, add1, mul2, add2){
         scale:0,
         ease: Back.easeOut.config(1.7)
     });
-    setTimeout(arguments.callee, 750);
+
 }
-*/
+
+(function(){
+ani(document.getElementById("star1"),160,20,164,21);
+        setTimeout(arguments.callee, 750);
+})();
+(function(){
+ani(document.getElementById("star2"),160,20,164,205);
+        setTimeout(arguments.callee, 750);
+})();
+(function(){
+ani(document.getElementById("star3"),160,20,164,389);
+        setTimeout(arguments.callee, 750);
+})();
+(function(){
+ani(document.getElementById("star4"),160,20,164,573);
+        setTimeout(arguments.callee, 750);
+})();
+(function(){
+ani(document.getElementById("star5"),160,20,164,757);
+        setTimeout(arguments.callee, 750);
+})();
+(function(){
+ani(document.getElementById("star6"),160,20,164,941);
+        setTimeout(arguments.callee, 750);
+})();
+(function(){
+ani(document.getElementById("star7"),160,20,164,1125);
+        setTimeout(arguments.callee, 750);
+})();
+(function(){
+ani(document.getElementById("star8"),160,200,164,21);
+        setTimeout(arguments.callee, 750);
+})();
+(function(){
+ani(document.getElementById("star9"),160,200,164,205);
+        setTimeout(arguments.callee, 750);
+})();
+(function(){
+ani(document.getElementById("star10"),160,200,164,389);
+        setTimeout(arguments.callee, 750);
+})();
+(function(){
+ani(document.getElementById("star11"),160,200,164,573);
+        setTimeout(arguments.callee, 750);
+})();
+(function(){
+ani(document.getElementById("star12"),160,200,164,757);
+        setTimeout(arguments.callee, 750);
+})();
+(function(){
+ani(document.getElementById("star13"),160,200,164,941);
+        setTimeout(arguments.callee, 750);
+})();
+(function(){
+ani(document.getElementById("star14"),160,200,164,1125);
+        setTimeout(arguments.callee, 750);
+})();
+(function(){
+ani(document.getElementById("star15"),160,380,164,21);
+        setTimeout(arguments.callee, 750);
+})();
+(function(){
+ani(document.getElementById("star16"),160,380,164,205);
+        setTimeout(arguments.callee, 750);
+})();
+(function(){
+ani(document.getElementById("star17"),160,380,164,389);
+        setTimeout(arguments.callee, 750);
+})();
+(function(){
+ani(document.getElementById("star18"),160,380,164,573);
+        setTimeout(arguments.callee, 750);
+})();
+(function(){
+ani(document.getElementById("star19"),160,380,164,757);
+        setTimeout(arguments.callee, 750);
+})();
+(function(){
+ani(document.getElementById("star20"),160,380,164,941);
+        setTimeout(arguments.callee, 750);
+})();
+(function(){
+ani(document.getElementById("star21"),160,380,164,1125);
+        setTimeout(arguments.callee, 750);
+})();
+/*
 
 
 function animate() {
@@ -335,7 +420,7 @@ function animate() {
 })();
 }
 
-
+*/
 /*
 function flickerAnimate(object) {
     x = Math.random() * 2 + 1
@@ -364,6 +449,6 @@ flickerAnimate(".star10");
 flickerAnimate(".star11");
 flickerAnimate(".star12");
 }
-document.getElementById("box").onclick = function() {animate()}; */
+document.getElementById("box").onclick = function() {animate()}; 
 
-document.getElementById("gift-box").onclick = function() {animate()};
+document.getElementById("gift-box").onclick = function() {animate()};*/

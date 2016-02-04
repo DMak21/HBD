@@ -4,6 +4,7 @@
     text-align: center;
     color: #E97F02;
     text-shadow: 2px 2px #ff0000;
+    margin: 0;
 }
 
 #gift-box {
@@ -94,10 +95,6 @@
 }
 
 body {
-    
-}
-
-body {
     background-color: #490A3D
 }
 
@@ -106,9 +103,34 @@ body {
 }
 
 
-img:hover{
+#gift-box:hover{
     -webkit-filter: drop-shadow(2px 2px 0 #00f)
                   drop-shadow(-2px -2px 0 #00f);
   filter: drop-shadow(2px 2px 0 #00f) 
           drop-shadow(-2px -2px 0 #00f);
+}
+
+
+
+
+
+#main {
+    text-align: center;
+}
+
+p {
+    font-size: 12px;
+    margin: 0;
+}
+
+#bharati {
+    font-family: 'Candal', sans-serif;
+    font-size: 64px;
+    color: #E97F02;
+    text-shadow: 2px 2px #ff0000;
+    
+}
+
+#wishes {
+    background-color: #8A9B0F;
 }

@@ -1,0 +1,153 @@
+.title {
+    font-family: 'simoneregular';
+    font-size: 96px;
+    text-align: center;
+    color: #FA6900;
+
+    margin: 0;
+}
+
+#gift-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+
+
+#star1 {
+    position: absolute;
+}
+#star2 {
+    position: absolute;
+}
+#star3 {
+    position: absolute;
+}
+#star4 {
+    position: absolute;
+}
+#star5 {
+    position: absolute;
+}
+#star6 {
+    position: absolute;
+}
+#star7 {
+    position: absolute;
+}
+#star8 {
+    position: absolute;
+}
+#star9 {
+    position: absolute;
+}
+#star10 {
+    position: absolute;
+}
+#star11 {
+    position: absolute;
+}
+#star12 {
+    position: absolute;
+}
+#star13 {
+    position: absolute;
+}
+#star14 {
+    position: absolute;
+}
+#star15 {
+    position: absolute;
+}
+#star16 {
+    position: absolute;
+}
+#star17 {
+    position: absolute;
+}
+#star18 {
+    position: absolute;
+}
+#star19 {
+    position: absolute;
+}
+#star20 {
+    position: absolute;
+}
+#star21 {
+    position: absolute;
+}
+.balloon-blue {
+    position: inherit
+}
+
+.grid_4 {
+    align-items: center
+}
+
+
+.fb-comments {
+    background-color: #E0E4CC;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: #A7DBD8;
+}
+
+.container {
+
+    text-align: center;
+}
+
+
+#gift-box:hover{
+    -webkit-filter: drop-shadow(2px 2px 0 #00f)
+                  drop-shadow(-2px -2px 0 #00f);
+  filter: drop-shadow(2px 2px 0 #00f) 
+          drop-shadow(-2px -2px 0 #00f);
+}
+
+
+
+
+
+#main {
+    text-align: center;
+    	background-image: url(../media/back.jpg);
+    background-size:cover;
+    background-color: #22ABF9;
+}
+
+p {
+    font-size: 12px;
+    margin: 0;
+}
+
+#bharati {
+    font-family: 'alex_brushregular';
+    font-size: 64px;
+    color: #FA6900;
+    text-shadow: 2px 2px #ff0000;
+    
+}
+
+#wishes {
+    background-color: #E0E4CC;
+}
+.fb-comments, .fb-comments iframe[style], .fb-comments span {
+   width: 100% !important;
+}
+
+.navbar {
+    background-color: black;
+}
+
+
+
+#container marketting {
+align-content: center;
+}

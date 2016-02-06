@@ -1,9 +1,9 @@
-#title {
+.title {
     font-family: 'simoneregular';
     font-size: 96px;
     text-align: center;
-    color: #F38630;
-    text-shadow: 2px 2px #ff0000;
+    color: #FA6900;
+
     margin: 0;
 }
 
@@ -95,11 +95,11 @@
 }
 
 body {
-    background-color: #A7DBD8
+    background-color: #A7DBD8;
 }
 
-.container_16 {
-    background-color: #69D2E7
+.container {
+    background-color: #69D2E7;
 }
 
 
@@ -133,4 +133,17 @@ p {
 
 #wishes {
     background-color: #E0E4CC;
+}
+.fb-comments, .fb-comments iframe[style], .fb-comments span {
+   width: 100% !important;
+}
+
+.navbar {
+    background-color: black;
+}
+
+
+
+#container marketting {
+align-content: center;
 }

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!-- saved from url=(0086)http://s.codepen.io/boomerang/2048fc79bedfadec9fc64a97c86c7e291454790546305/index.html -->
+<html class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="console_runner-ba402f0a8d1d2ce5a72889b81a71a979.js"></script><style type="text/css"></style><meta charset="UTF-8"><meta name="robots" content="noindex"><link rel="canonical" href="http://codepen.io/anon/pen/NxOzPZ">
+
+<link rel="stylesheet prefetch" href="http://codepen.io/assets/reset/normalize.css">
+<style class="cp-pen-styles">/*
+ * None of the CSS in this example is necessary for the base script to work properly. The only required CSS is the one shipped with Bootstrap.
+ */
+
+/* This example's styling */
+
+@media (max-width: 767px) {
+  .breakpoint-alias:before {
+    content: "XS";
+  }
+}
+@media (min-width: 768px) and (max-width: 983px) {
+  .breakpoint-alias:before {
+    content: "SM";
+  }
+}
+@media (min-width: 984px) and (max-width: 1199px) {
+  .breakpoint-alias:before {
+    content: "MD";
+  }
+}
+@media (min-width: 1200px) {
+  .breakpoint-alias:before {
+    content: "LG";
+  }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 983px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 984px) and (max-width: 1199px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+.wrapper {
+  background: white;
+  color: #666666;
+}
+.wrapper .site-topbar {
+  height: 60px;
+  line-height: 60px;
+  vertical-align: middle;
+  background: #414141;
+  color: white;
+  position: relative;
+  vertical-align: middle;
+}
+.wrapper .site-topbar h5 {
+  height: inherit;
+  line-height: inherit;
+  vertical-align: middle;
+  font-weight: 300;
+  margin: 0 60px 0 15px;
+  vertical-align: middle;
+}
+.wrapper .site-topbar .breakpoint-alias {
+  background-color: #238cce;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 60px;
+  margin: auto;
+}
+
+.comparison-boxes {
+  text-align: justify;
+  font-size: 0.1px;
+}
+.comparison-boxes:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.comparison-operator {
+  height: 140px;
+  line-height: 140px;
+  vertical-align: middle;
+  display: inline-block;
+  background: #414141;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  width: 33%;
+  min-height: 50%;
+}
+.comparison-operator.active {
+  background: #238cce;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+</style></head><body>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="=&quot;IE=edge&quot;/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Bootstrap Toolkit</title>
+    <link href="css(1)" rel="stylesheet" type="text/css">
+    <!-- Include default Bootstrap stylesheet -->
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+
+
+
+
+    <div class="wrapper">
+        <div class="site-topbar clearfix" data-compact-height="40" data-fullsize-height="60">
+            <h5 class="text-uppercase">Responsive Bootstrap Toolkit</h5>
+            <div class="breakpoint-alias pull-right text-center"></div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-6 col-sm-push-2 col-md-push-3 col-lg-push-3">
+                    <br>
+                    <br>
+                    <p>Boxes below get highlighted whenever current viewport matches their expression. Alias of current breakpoint is visible in the top right corner.</p>
+                    <br>
+                    
+                    <div class="comparison-boxes">
+                        <div class="comparison-operator box-1">
+                            &lt;=sm
+                        </div>
+                        <div class="comparison-operator box-2">
+                            md
+                        </div>
+                        <div class="comparison-operator box-3 active">
+                            &gt;md
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap-toolkit.min.js"></script>
+
+
+
+
+<script src="stopExecutionOnTimeout.js"></script><script src="jquery.min(1).js"></script>
+<script>
+(function ($, document, window, viewport) {
+    var highlightBox = function (className) {
+        $(className).addClass('active');
+    };
+    var highlightBoxes = function () {
+        $('.comparison-operator').removeClass('active');
+        if (viewport.is('<=sm')) {
+            highlightBox('.box-1');
+        }
+        if (viewport.is('md')) {
+            highlightBox('.box-2');
+        }
+        if (viewport.is('>md')) {
+            highlightBox('.box-3');
+        }
+    };
+    $(document).ready(function () {
+        highlightBoxes();
+        console.log('Current breakpoint:', viewport.current());
+    });
+    $(window).resize(viewport.changed(function () {
+        highlightBoxes();
+        console.log('Current breakpoint:', viewport.current());
+    }));
+}(jQuery, document, window, ResponsiveBootstrapToolkit));
+//# sourceURL=pen.js
+</script>
+<script src="css_live_reload_init.js"></script>
+<div class="responsive-bootstrap-toolkit"><div class="device-xs visible-xs visible-xs-block"></div><div class="device-sm visible-sm visible-sm-block"></div><div class="device-md visible-md visible-md-block"></div><div class="device-lg visible-lg visible-lg-block"></div></div></body></html>

@@ -123,6 +123,7 @@ p {
     font-size: 12px;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    color: black
 }
 
 #bharati {
@@ -168,9 +169,18 @@ align-content: center;
 }
 
 #container {
-    background-color: black
+    background-color: #9fb4ee
 }
 
 .container {
     
+}
+
+body {
+    background-image:url(../media/floral.jpg);
+    background-repeat: repeat;
+}
+
+h2 {
+    color: black
 }

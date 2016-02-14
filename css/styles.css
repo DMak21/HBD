@@ -82,38 +82,12 @@
 }
 
 
-#balloon1 {
+#balloon1, #balloon2, #balloon3, #balloon4, #balloon5, #balloon6, #balloon7, #balloon8 {
     position: absolute;
     margin-left: auto;
-    margin-top: auto;
-    width: 150px;
+    margin-right: auto;
     right: 0;
     left: 0;
-}
-#balloon2 {
-    position: absolute;
-    margin-left: auto;
-    margin-top: auto;
-    width: 150px;
-    right: 0;
-    left: 0;
-}
-#balloon3 {
-    position: absolute;
-    margin-left: auto;
-    margin-top: auto;
-    width: 150px;
-    right: 0;
-    left: 0;
-}
-#balloon4 {
-    position: absolute;
-    margin-left: auto;
-    margin-top: auto;
-    width: 150px;
-    right: 0;
-    left: 0;
-    
 }
 
 .grid_4 {

@@ -79,25 +79,6 @@ TweenMax.to(".star11", 2, {y:700, yoyo:true, repeat:10, rotation:720, ease: Powe
 TweenMax.to(".star12", 2, {y:700, yoyo:true, repeat:10, rotation:720, ease: Power0.easeNone});
 */
 
-
-TweenMax.to(document.getElementById("balloon1"), 3.5 + 1.5 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
-TweenMax.to(document.getElementById("balloon2"), 3.5 + 1.5 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
-TweenMax.to(document.getElementById("balloon3"), 3.5 + 1.5 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
-TweenMax.to(document.getElementById("balloon4"), 3.5 + 1.5 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
-
-setTimeout(doSomething, 1000);
-
-function doSomething() {
-   TweenMax.to(document.getElementById("balloon5"), 3.5 + 1.5 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
-TweenMax.to(document.getElementById("balloon6"), 3.5 + 1.5 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
-TweenMax.to(document.getElementById("balloon7"), 3.5 + 1.5 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
-TweenMax.to(document.getElementById("balloon8"), 3.5 + 1.5 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
-
-}
-
-
-
-
 var iden;
 var mul1;
 var add1;
@@ -191,6 +172,25 @@ ani(document.getElementById("star19"),160,380,164,757);
 ani(document.getElementById("star20"),160,380,164,941);
         setTimeout(arguments.callee, 750);
 })();
+
+
+TweenMax.to(document.getElementById("balloon1"), 3.5 + 1.5 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
+TweenMax.to(document.getElementById("balloon2"), 3.5 + 1.5 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
+TweenMax.to(document.getElementById("balloon3"), 3.5 + 1.5 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
+TweenMax.to(document.getElementById("balloon4"), 3.5 + 1.5 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
+
+setTimeout(doSomething, 1000);
+
+function doSomething() {
+   TweenMax.to(document.getElementById("balloon5"), 3.5 + 1.5 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
+TweenMax.to(document.getElementById("balloon6"), 3.5 + 1.5 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
+TweenMax.to(document.getElementById("balloon7"), 3.5 + 1.5 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
+TweenMax.to(document.getElementById("balloon8"), 3.5 + 1.5 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
+
+}
+
+
+
 
 /*
 

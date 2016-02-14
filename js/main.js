@@ -78,8 +78,8 @@ TweenMax.to(".star10", 2, {y:700, repeat:10, rotation:720, repeatDelay:0.5, ease
 TweenMax.to(".star11", 2, {y:700, yoyo:true, repeat:10, rotation:720, ease: Power0.easeNone});
 TweenMax.to(".star12", 2, {y:700, yoyo:true, repeat:10, rotation:720, ease: Power0.easeNone});
 */
-
-var iden;
+(function($, document, window, viewport){
+    var iden;
 var mul1;
 var add1;
 var mul2;
@@ -97,6 +97,14 @@ function ani(iden, mul1, add1, mul2, add2){
 
 }
 
+    if( viewport.is("<=sm") ) {
+            highlightBox('.box-1');
+
+        }
+    
+    
+    
+    
 (function(){
 ani(document.getElementById("star1"),160,20,164,21);
         setTimeout(arguments.callee, 750);
@@ -181,6 +189,27 @@ ani(document.getElementById("star20"),160,380,164,941);
 ani(document.getElementById("star21"),160,380,164,1125);
         setTimeout(arguments.callee, 750);
 })();
+    
+        $(document).ready(function() {
+
+        highlightBoxes();
+
+        console.log('Current breakpoint:', viewport.current());
+
+    });
+
+    $(window).resize(
+        viewport.changed(function(){
+            highlightBoxes();
+
+            console.log('Current breakpoint:', viewport.current());
+        })
+    );
+
+    
+    
+})(jQuery, document, window, ResponsiveBootstrapToolkit)
+
 /*
 
 

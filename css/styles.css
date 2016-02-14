@@ -94,10 +94,6 @@
     margin-right: auto;
 }
 
-body {
-    background-color: #A7DBD8;
-}
-
 .container {
 
     text-align: center;
@@ -117,8 +113,7 @@ body {
 
 #main {
     text-align: center;
-    	background-image: url(../media/back.jpg);
-    background-size:cover;
+    	background-image: url(../media/birthday-back.jpg);    background-size:cover;
     background-color: #22ABF9;
 }
 
@@ -150,4 +145,17 @@ p {
 
 #container marketting {
 align-content: center;
+}
+
+body {
+    background-image: url(../media/image3.jpg);
+    background-repeat: repeat;
+}
+
+.container {
+    background-color:#205068
+}
+
+.back {
+    background-color: black
 }

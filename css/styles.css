@@ -79,8 +79,40 @@
 #star21 {
     position: absolute;
 }
-.balloon-blue {
-    position: inherit
+
+
+#balloon1 {
+    position: absolute;
+    margin-left: auto;
+    margin-top: auto;
+    width: 150px;
+    right: 0;
+    left: 0;
+}
+#balloon2 {
+    position: absolute;
+    margin-left: auto;
+    margin-top: auto;
+    width: 150px;
+    right: 0;
+    left: 0;
+}
+#balloon3 {
+    position: absolute;
+    margin-left: auto;
+    margin-top: auto;
+    width: 150px;
+    right: 0;
+    left: 0;
+}
+#balloon4 {
+    position: absolute;
+    margin-left: auto;
+    margin-top: auto;
+    width: 150px;
+    right: 0;
+    left: 0;
+    
 }
 
 .grid_4 {

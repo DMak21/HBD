@@ -98,6 +98,10 @@ function ani(iden, mul1, add1, mul2, add2){
 }
 
 function animate(){
+var audio = new Audio('../media/birthday-song.mp3');
+audio.play();
+    
+    
 (function(){
 ani(document.getElementById("star1"),160,20,164,21);
         setTimeout(arguments.callee, 750);

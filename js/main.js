@@ -202,18 +202,18 @@ ani(document.getElementById("star20"),160,380,164,941);
 })();
 }
 
-TweenMax.to(document.getElementById("balloon1"), 3 + 2 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
-TweenMax.to(document.getElementById("balloon2"), 3 + 2 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
-TweenMax.to(document.getElementById("balloon3"), 3 + 2 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
-TweenMax.to(document.getElementById("balloon4"), 3 + 2 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
+TweenMax.to(document.getElementById("balloon1"), 4 + Math.random(), {y:-1200, repeat:25, ease: Power0.easeNone});
+TweenMax.to(document.getElementById("balloon2"), 4 + Math.random(), {y:-1200, repeat:25, ease: Power0.easeNone});
+TweenMax.to(document.getElementById("balloon3"), 4 + Math.random(), {y:-1200, repeat:25, ease: Power0.easeNone});
+TweenMax.to(document.getElementById("balloon4"), 4 + Math.random(), {y:-1200, repeat:25, ease: Power0.easeNone});
 
 setTimeout(doSomething, 1000);
 
 function doSomething() {
-TweenMax.to(document.getElementById("balloon5"), 3 + 2 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
-TweenMax.to(document.getElementById("balloon6"), 3 + 2 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
-TweenMax.to(document.getElementById("balloon7"), 3 + 2 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
-TweenMax.to(document.getElementById("balloon8"), 3 + 2 * Math.random(), {y:-1200, repeat:25, repeatDelay:0.5, ease: Power0.easeNone});
+TweenMax.to(document.getElementById("balloon5"), 4 + Math.random(), {y:-1200, repeat:25, ease: Power0.easeNone});
+TweenMax.to(document.getElementById("balloon6"), 4 + Math.random(), {y:-1200, repeat:25, ease: Power0.easeNone});
+TweenMax.to(document.getElementById("balloon7"), 4 + Math.random(), {y:-1200, repeat:25, ease: Power0.easeNone});
+TweenMax.to(document.getElementById("balloon8"), 4 + Math.random(), {y:-1200, repeat:25, ease: Power0.easeNone});
 
 }
 

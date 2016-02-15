@@ -97,7 +97,7 @@ function ani(iden, mul1, add1, mul2, add2){
 
 }
 
-    
+function animate(){
 (function(){
 ani(document.getElementById("star1"),160,20,164,21);
         setTimeout(arguments.callee, 750);
@@ -214,7 +214,7 @@ TweenMax.to(document.getElementById("balloon8"), 3.5 + 1.5 * Math.random(), {y:-
 
 }
 
-
+}
 
 
 /*
@@ -488,3 +488,4 @@ flickerAnimate(".star12");
 document.getElementById("box").onclick = function() {animate()}; 
 
 document.getElementById("gift-box").onclick = function() {animate()};*/
+document.getElementById("gift-box").onclick = function() {animate()};

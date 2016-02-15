@@ -106,25 +106,25 @@ ani(document.getElementById("star1"),160,20,164,21);
 ani(document.getElementById("star2"),160,20,164,205);
         setTimeout(arguments.callee, 750);
 })();
-if($(window).width() >= 610){
+if (window.screen.width >= 610) {
   (function(){
 ani(document.getElementById("star3"),160,20,164,389);
         setTimeout(arguments.callee, 750);
 })();
 }
-if($(window).width() >= 780){
+if (window.screen.width >= 780) {
   (function(){
 ani(document.getElementById("star4"),160,20,164,573);
         setTimeout(arguments.callee, 750);
 })();
 }
-if($(window).width() >= 992){
+if (window.screen.width >= 992) {
   (function(){
 ani(document.getElementById("star5"),160,20,164,757);
         setTimeout(arguments.callee, 750);
 })();
 }
-if($(window).width() >= 1200){
+if (window.screen.width >= 1200) {
   (function(){
 ani(document.getElementById("star6"),160,20,164,941);
         setTimeout(arguments.callee, 750);
@@ -140,26 +140,26 @@ ani(document.getElementById("star8"),160,200,164,21);
 ani(document.getElementById("star9"),160,200,164,205);
         setTimeout(arguments.callee, 750);
 })();
-if($(window).width() >= 610){
+if (window.screen.width >= 610) {
   (function(){
 ani(document.getElementById("star10"),160,200,164,389);
         setTimeout(arguments.callee, 750);
 })();
 }
-if($(window).width() >= 780){
+if (window.screen.width >= 780) {
   (function(){
 ani(document.getElementById("star11"),160,200,164,573);
         setTimeout(arguments.callee, 750);
 })();
 }
-if($(window).width() >= 992){
+if (window.screen.width >= 992) {
   (function(){
 ani(document.getElementById("star12"),160,200,164,757);
         setTimeout(arguments.callee, 750);
 })();
 }
 
-if($(window).width() >= 1200){
+if (window.screen.width >= 1200) {
   (function(){
 ani(document.getElementById("star13"),160,200,164,941);
         setTimeout(arguments.callee, 750);
@@ -174,25 +174,25 @@ ani(document.getElementById("star15"),160,380,164,21);
 ani(document.getElementById("star16"),160,380,164,205);
         setTimeout(arguments.callee, 750);
 })();
-if($(window).width() >= 610){
+if (window.screen.width >= 610) {
   (function(){
 ani(document.getElementById("star17"),160,380,164,389);
         setTimeout(arguments.callee, 750);
 })();
 }
-if($(window).width() >= 780){
+if (window.screen.width >= 780) {
   (function(){
 ani(document.getElementById("star18"),160,380,164,573);
         setTimeout(arguments.callee, 750);
 })();
 }
-if($(window).width() >= 992){
+if (window.screen.width >= 992) {
   (function(){
 ani(document.getElementById("star19"),160,380,164,757);
         setTimeout(arguments.callee, 750);
 })();
 }
-if($(window).width() >= 1200){
+if (window.screen.width >= 1200) {
   (function(){
 ani(document.getElementById("star20"),160,380,164,941);
         setTimeout(arguments.callee, 750);

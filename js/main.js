@@ -1,4 +1,15 @@
+
+
+$(window).load(function() {
+		$(".sk-cube-grid").fadeOut("slow");;
+	});
+
+
 /* CANVAS ANIMATION
+
+
+document.body.style.background-image = "url(../media/floral.jpg)";
+document.body.style.background-repeat = "repeat";
 var ctx = document.getElementById("canvas").getContext("2d");
 function drawStar(cx, cy) {
     var rot = Math.PI / 2 * 3;

@@ -3,10 +3,12 @@
 $(window).load(function() {
 		$(".sk-cube-grid").fadeOut("slow");;
 	});
-
- document.getElementById("myP").style.visibility = "hidden";
-  document.getElementById("myP").style.visibility = "hidden";
-
+if (window.screen.width <= 780) {
+ document.getElementById("balloon5").style.visibility = "hidden";
+  document.getElementById("balloon6").style.visibility = "hidden";
+   document.getElementById("balloon7").style.visibility = "hidden";
+    document.getElementById("balloon8").style.visibility = "hidden";
+)
 /* CANVAS ANIMATION
 
 

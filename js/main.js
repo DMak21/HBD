@@ -218,8 +218,6 @@ TweenMax.to(document.getElementById("balloon2"), 4 + Math.random(), {y:-1000, re
 TweenMax.to(document.getElementById("balloon3"), 4 + Math.random(), {y:-1000, repeat:25, ease: Power0.easeNone});
 TweenMax.to(document.getElementById("balloon4"), 4 + Math.random(), {y:-1000, repeat:25, ease: Power0.easeNone});
 
-
-if (window.screen.width >= 780) {
 setTimeout(doSomething, 1400);
   function doSomething() {
 TweenMax.to(document.getElementById("balloon5"), 4 + Math.random(), {y:-1000, repeat:25, ease: Power0.easeNone});
@@ -228,7 +226,7 @@ TweenMax.to(document.getElementById("balloon7"), 4 + Math.random(), {y:-1000, re
 TweenMax.to(document.getElementById("balloon8"), 4 + Math.random(), {y:-1000, repeat:25, ease: Power0.easeNone});
 
 }
-}
+
 
 
 }

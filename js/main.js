@@ -8,7 +8,7 @@ if (window.screen.width <= 780) {
   document.getElementById("balloon6").style.visibility = "hidden";
    document.getElementById("balloon7").style.visibility = "hidden";
     document.getElementById("balloon8").style.visibility = "hidden";
-)
+}
 /* CANVAS ANIMATION
 
 

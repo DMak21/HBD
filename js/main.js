@@ -4,6 +4,8 @@ $(window).load(function() {
 		$(".sk-cube-grid").fadeOut("slow");;
 	});
 
+ document.getElementById("myP").style.visibility = "hidden";
+  document.getElementById("myP").style.visibility = "hidden";
 
 /* CANVAS ANIMATION
 

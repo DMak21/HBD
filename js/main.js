@@ -228,7 +228,7 @@ TweenMax.to(document.getElementById("balloon7"), 4 + Math.random(), {y:-1000, re
 TweenMax.to(document.getElementById("balloon8"), 4 + Math.random(), {y:-1000, repeat:25, ease: Power0.easeNone});
 
 }
-})();
+}
 
 
 }

@@ -9,6 +9,12 @@ if (window.screen.width <= 780) {
    document.getElementById("balloon7").style.visibility = "hidden";
     document.getElementById("balloon8").style.visibility = "hidden";
 }
+
+$(document).ready(function(){
+  $('.your-class').slick({
+    setting-name: setting-value
+  });
+});
 /* CANVAS ANIMATION
 
 

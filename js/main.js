@@ -247,17 +247,16 @@ ani(document.getElementById("star20"),160,380,164,941);
 })();
 }
 
-TweenMax.to(document.getElementById("balloon1"), 4 + Math.random(), {y:-1000, repeat:25, ease: Power0.easeNone});
-TweenMax.to(document.getElementById("balloon2"), 4 + Math.random(), {y:-1000, repeat:25, ease: Power0.easeNone});
-TweenMax.to(document.getElementById("balloon3"), 4 + Math.random(), {y:-1000, repeat:25, ease: Power0.easeNone});
-TweenMax.to(document.getElementById("balloon4"), 4 + Math.random(), {y:-1000, repeat:25, ease: Power0.easeNone});
+TweenMax.to(document.getElementById("balloon1"), 3.5, {y:-800, repeat:25, ease: Power0.easeNone});
+TweenMax.to(document.getElementById("balloon2"), 3, {y:-800, repeat:25, ease: Power0.easeNone});
+TweenMax.to(document.getElementById("balloon3"), 3.5, {y:-800, repeat:25, ease: Power0.easeNone});
 
-setTimeout(doSomething, 1400);
+
+setTimeout(doSomething, 1800);
   function doSomething() {
-TweenMax.to(document.getElementById("balloon5"), 4 + Math.random(), {y:-1000, repeat:25, ease: Power0.easeNone});
-TweenMax.to(document.getElementById("balloon6"), 4 + Math.random(), {y:-1000, repeat:25, ease: Power0.easeNone});
-TweenMax.to(document.getElementById("balloon7"), 4 + Math.random(), {y:-1000, repeat:25, ease: Power0.easeNone});
-TweenMax.to(document.getElementById("balloon8"), 4 + Math.random(), {y:-1000, repeat:25, ease: Power0.easeNone});
+TweenMax.to(document.getElementById("balloon8"), 3.5, {y:-800, repeat:25, ease: Power0.easeNone});
+TweenMax.to(document.getElementById("balloon11"), 3, {y:-800, repeat:25, ease: Power0.easeNone});
+TweenMax.to(document.getElementById("balloon12"), 3.5, {y:-800, repeat:25, ease: Power0.easeNone});
 
 }
 

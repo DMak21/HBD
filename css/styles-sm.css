@@ -1,6 +1,6 @@
 .title {
     font-family: 'simoneregular';
-    font-size: 96px;
+    font-size: 80px;
     text-shadow: 0px 3px #e05278;
     color: #AD1F45;
     text-align: left;
@@ -11,8 +11,9 @@
 #gift-box {
     display: block;
     cursor: pointer;
-    margin-left: auto;
-    margin-right: auto
+    padding-left: 25px;
+    width: 170px;
+    height: 170px;
 }
 
 header {
@@ -131,7 +132,7 @@ header {
 
 
 #main {
-    background-image: url(../media/birthday-back.jpg);    background-size:cover;
+    background-image: url(../media/birthday-26a-m.jpg);    background-size:cover;
     height:93vh;
 }
 
@@ -173,7 +174,7 @@ align-content: center;
 
 .title2 {
     font-family: 'simoneregular';
-    font-size: 96px;
+    font-size: 80px;
     text-shadow: 0px 3px #e05278;
     color: #AD1F45;
     margin: 0;
@@ -275,7 +276,8 @@ if it's not present, don't show loader */
 
 
 #click-me {
-    font-size: 22px
+    font-size: 14px;
+    display: block;
 }
 
 .center {

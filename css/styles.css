@@ -129,12 +129,26 @@ header {
 
 
 
-
+@media (min-width: 992px) and (max-width: 1199px) {
 #main {
     background-image: url(../media/birthday-back.jpg);    background-size:cover;
-    height:93vh;
+}
+    .fb-comments, .fb-comments iframe[style], .fb-comments span {
+   width:970px!important;
+}
 }
 
+@media (min-width: 1200px){
+    #main {
+    background-image: url(../media/birthday-back-l.jpg);    background-size:cover;
+    }
+    .fb-comments, .fb-comments iframe[style], .fb-comments span {
+   width:1170px!important;
+
+}
+    
+    
+}
 p {
     font-size: 12px;
     margin: 0;
@@ -151,10 +165,7 @@ p {
 }
 
 #wishes {
-    background-color: #E0E4CC;
-}
-.fb-comments, .fb-comments iframe[style], .fb-comments span {
-   width: 100% !important;
+    background-color: black;
 }
 
 
@@ -182,7 +193,7 @@ align-content: center;
 }
 
 #container {
-    background-color: #99B898
+    background-color: black
 }
 
 .container {
@@ -192,7 +203,6 @@ align-content: center;
 body {
     background-image:url(../media/floral.jpg);
     background-repeat: repeat;
-    color: aqua
 }
 
 h2 {
@@ -279,6 +289,7 @@ if it's not present, don't show loader */
 }
 
 .center {
-    width: inherit;
+    width: 970px;
+    align-content: center;
     text-align: center;
 }

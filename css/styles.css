@@ -15,89 +15,38 @@
     margin-right: auto
 }
 
-header {
-    position: relative;
-    width: 100%;
-    min-height: auto;
-    text-align: center;
-    color: #fff;
-    background:linear-gradient(
-      rgba(0, 0, 0, 0.8), 
-      rgba(0, 0, 0, 0.8));
-    
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-#star1 {
-    position: absolute;
-}
-#star2 {
-    position: absolute;
-}
-#star3 {
-    position: absolute;
-}
-#star4 {
-    position: absolute;
-}
-#star5 {
-    position: absolute;
-}
-#star6 {
-    position: absolute;
-}
-#star7 {
-    position: absolute;
-}
-#star8 {
-    position: absolute;
-}
-#star9 {
-    position: absolute;
-}
-#star10 {
-    position: absolute;
-}
-#star11 {
-    position: absolute;
-}
-#star12 {
-    position: absolute;
-}
-#star13 {
-    position: absolute;
-}
-#star14 {
-    position: absolute;
-}
-#star15 {
-    position: absolute;
-}
-#star16 {
-    position: absolute;
-}
-#star17 {
-    position: absolute;
-}
-#star18 {
-    position: absolute;
-}
-#star19 {
-    position: absolute;
-}
-#star20 {
-    position: absolute;
-}
+#star1,
+#star2,
+#star3,
+#star4,
+#star5,
+#star6,
+#star7,
+#star8,
+#star9,
+#star10,
+#star11,
+#star12,
+#star13,
+#star14,
+#star15,
+#star16,
+#star17,
+#star18,
+#star19,
+#star20,
 #star21 {
     position: absolute;
 }
 
-
-#balloon1, #balloon2, #balloon3, #balloon4, #balloon5, #balloon6, #balloon7, #balloon8 {
+#balloon1,
+#balloon2,
+#balloon3,
+#balloon4,
+#balloon5,
+#balloon6,
+#balloon7,
+#balloon8 {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -105,82 +54,10 @@ header {
     left: 0;
 }
 
-.grid_4 {
-    align-items: center
+#gift-box:hover {
+    -webkit-filter: drop-shadow(2px 2px 0 #00f) drop-shadow(-2px -2px 0 #00f);
+    filter: drop-shadow(2px 2px 0 #00f) drop-shadow(-2px -2px 0 #00f);
 }
-
-
-.fb-comments {
-    background-color: #E0E4CC;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
-
-#gift-box:hover{
-    -webkit-filter: drop-shadow(2px 2px 0 #00f)
-                  drop-shadow(-2px -2px 0 #00f);
-  filter: drop-shadow(2px 2px 0 #00f) 
-          drop-shadow(-2px -2px 0 #00f);
-}
-
-
-
-
-@media (min-width: 992px) and (max-width: 1199px) {
-#main {
-    background-image: url(../media/birthday-back.jpg);    background-size:cover;
-}
-    .fb-comments, .fb-comments iframe[style], .fb-comments span {
-   width:970px!important;
-}
-}
-
-@media (min-width: 1200px){
-    #main {
-    background-image: url(../media/birthday-back-l.jpg);    background-size:cover;
-    }
-    .fb-comments, .fb-comments iframe[style], .fb-comments span {
-   width:1170px!important;
-
-}
-    
-    
-}
-p {
-    font-size: 12px;
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    color: black
-}
-
-#bharati {
-    font-family: 'alex_brushregular';
-    font-size: 64px;
-    color: #FA6900;
-    text-shadow: 2px 2px #902a3e;
-    
-}
-
-#wishes {
-    background-color: black;
-}
-
-
-
-
-#container marketting {
-align-content: center;
-}
-
-
-
-.back {
-    background-color: black
-}
-
 
 .title2 {
     font-family: 'simoneregular';
@@ -192,104 +69,138 @@ align-content: center;
     padding: 0;
 }
 
-#container {
-    background-color: black
+#main {
+    background-image: url(../media/head-background.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom right;
 }
-
-.container {
-    
-}
-
-body {
-    background-image:url(../media/floral.jpg);
-    background-repeat: repeat;
-}
-
-h2 {
-    color: black
-}
-
-
-
-/* Paste this css to your style sheet file or under head tag */
-/* This only works with JavaScript, 
-if it's not present, don't show loader */
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-
-.sk-cube-grid {
-   position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-}
-
-.sk-cube-grid .sk-cube {
-  width: 33%;
-  height: 33%;
-  background-color: #333;
-  float: left;
-  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
-          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
-}
-.sk-cube-grid .sk-cube1 {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s; }
-.sk-cube-grid .sk-cube2 {
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s; }
-.sk-cube-grid .sk-cube3 {
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s; }
-.sk-cube-grid .sk-cube4 {
-  -webkit-animation-delay: 0.1s;
-          animation-delay: 0.1s; }
-.sk-cube-grid .sk-cube5 {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s; }
-.sk-cube-grid .sk-cube6 {
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s; }
-.sk-cube-grid .sk-cube7 {
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s; }
-.sk-cube-grid .sk-cube8 {
-  -webkit-animation-delay: 0.1s;
-          animation-delay: 0.1s; }
-.sk-cube-grid .sk-cube9 {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s; }
-
-@-webkit-keyframes sk-cubeGridScaleDelay {
-  0%, 70%, 100% {
-    -webkit-transform: scale3D(1, 1, 1);
-            transform: scale3D(1, 1, 1);
-  } 35% {
-    -webkit-transform: scale3D(0, 0, 1);
-            transform: scale3D(0, 0, 1); 
-  }
-}
-
-@keyframes sk-cubeGridScaleDelay {
-  0%, 70%, 100% {
-    -webkit-transform: scale3D(1, 1, 1);
-            transform: scale3D(1, 1, 1);
-  } 35% {
-    -webkit-transform: scale3D(0, 0, 1);
-            transform: scale3D(0, 0, 1);
-  } 
-}
-
-
 
 #click-me {
     font-size: 22px
 }
 
-.center {
-    width: 970px;
-    align-content: center;
+#loader {
+    text-align: center;
+    position: relative;
+    z-index: 2000;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+.first,
+.second,
+.third {
+    display: none;
+    vertical-align: middle;
     text-align: center;
 }
+
+
+/* Preloader Animation --START */
+
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+#loader {
+    z-index: 1001;
+    /* anything higher than z-index: 1000 of .loader-section */
+}
+
+h1 {
+    color: #EEEEEE;
+    font-size: 40px;
+    height: 309px;
+    line-height: 309px;
+}
+
+#loader-wrapper .loader-section {
+    position: fixed;
+    top: 0;
+    width: 51%;
+    height: 100%;
+    background: #222222;
+    z-index: 1000;
+}
+
+#loader-wrapper .loader-section.section-left {
+    left: 0;
+}
+
+#loader-wrapper .loader-section.section-right {
+    right: 0;
+}
+
+
+/* Loaded */
+
+.loaded #loader-wrapper .loader-section.section-left {
+    -webkit-transform: translateX(-100%);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: translateX(-100%);
+    /* IE 9 */
+    transform: translateX(-100%);
+    /* Firefox 16+, IE 10+, Opera */
+}
+
+.loaded #loader-wrapper .loader-section.section-right {
+    -webkit-transform: translateX(100%);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: translateX(100%);
+    /* IE 9 */
+    transform: translateX(100%);
+    /* Firefox 16+, IE 10+, Opera */
+}
+
+.loaded #loader {
+    opacity: 0;
+}
+
+.loaded #loader-wrapper {
+    visibility: hidden;
+}
+
+.loaded #loader {
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.loaded #loader-wrapper .loader-section.section-right,
+.loaded #loader-wrapper .loader-section.section-left {
+    -webkit-transition: all 0.3s 0.3s ease-out;
+    transition: all 0.3s 0.3s ease-out;
+}
+
+.loaded #loader-wrapper {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition: all 0.3s 0.6s ease-out;
+    transition: all 0.3s 0.6s ease-out;
+}
+
+.loaded #loader-wrapper .loader-section.section-right,
+.loaded #loader-wrapper .loader-section.section-left {
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+
+.loaded #loader-wrapper {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition: all 0.3s 1s ease-out;
+    transition: all 0.3s 1s ease-out;
+}
+
+
+/* Preloader Animation --END */

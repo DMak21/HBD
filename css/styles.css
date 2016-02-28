@@ -351,3 +351,16 @@ p {
 body {
     background-color: #FF6FBA;
 }
+
+
+#messages {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: url(../media/1367572845_123.165.173.221.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width:auto;
+    color: #ffffff;
+}

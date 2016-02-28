@@ -1,3 +1,23 @@
+$(window).scroll(function () {
+    var height = $(window).scrollTop();
+
+    if (height > 2) {
+        document.getElementById("birthday-song").play();
+    }
+
+});
+
+
+
+
+/* var audio = document.getElementById('music');
+audio.play();
+ 
+// Sometime Later
+audio.src = 'music_2.mp3';
+audio.play(); */
+
+
 var iden;
 var mul1;
 var add1;
@@ -15,7 +35,7 @@ function ani(iden, mul1, add1, mul2, add2) {
 }
 
 function animate() {
-    document.getElementById("birthday-song").play();
+
     (function () {
         ani(document.getElementById("star1"), 160, 20, 164, 21);
         setTimeout(arguments.callee, 750);

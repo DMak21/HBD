@@ -8,6 +8,23 @@
     padding: 0;
 }
 
+.title2 {
+    font-family: 'simoneregular';
+    font-size: 96px;
+    text-shadow: 0px 3px #e05278;
+    color: #AD1F45;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+
+@media screen and (min-width: 1400px) {
+    .title,
+    .title2 {
+        font-size: 156px;
+    }
+}
+
 #gift-box {
     display: block;
     cursor: pointer;
@@ -35,7 +52,36 @@
 #star18,
 #star19,
 #star20,
-#star21 {
+#star21,
+#star22,
+#star23,
+#star24,
+#star25,
+#star26,
+#star27,
+#star28,
+#star29,
+#star30,
+#star31,
+#star32,
+#star33,
+#star34,
+#star35,
+#star36,
+#star37,
+#star38,
+#star39,
+#star40,
+#star41,
+#star42,
+#star43,
+#star44,
+#star45,
+#star46,
+#star47,
+#star48,
+#star49,
+#star50 {
     position: absolute;
 }
 
@@ -57,16 +103,6 @@
 #gift-box:hover {
     -webkit-filter: drop-shadow(2px 2px 0 #00f) drop-shadow(-2px -2px 0 #00f);
     filter: drop-shadow(2px 2px 0 #00f) drop-shadow(-2px -2px 0 #00f);
-}
-
-.title2 {
-    font-family: 'simoneregular';
-    font-size: 96px;
-    text-shadow: 0px 3px #e05278;
-    color: #AD1F45;
-    margin: 0;
-    text-align: center;
-    padding: 0;
 }
 
 #main {
@@ -111,8 +147,7 @@ h1 {
 }
 
 #loader {
-    z-index: 1001;
-    /* anything higher than z-index: 1000 of .loader-section */
+    z-index: 1500;
 }
 
 h1 {
@@ -204,3 +239,14 @@ h1 {
 
 
 /* Preloader Animation --END */
+
+.stars {
+    width: 100%;
+    position: relative;
+    z-index: 1250;
+    height: 100%;
+}
+
+.row1 {
+    height: 25%
+}

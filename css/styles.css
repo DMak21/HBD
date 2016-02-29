@@ -310,3 +310,14 @@ body {
 .test{
     background-color: #fff;
 }
+#play {
+    position: absolute;
+    z-index: 2;
+    height: 100px;
+    width: 100px;
+}
+
+.img-circle {
+    position: relative;
+    z-index: 1;
+}

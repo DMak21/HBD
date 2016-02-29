@@ -382,7 +382,7 @@ $(document).ready(function () {
         $('body').addClass('loaded');
         animate();
     }, 4000);
-    /*
+/*
 var ident1,ident2;
 function play-pause(ident1, ident2){
   $(ident1).hover(function() {
@@ -414,10 +414,10 @@ play-pause('#play6','#pause6');
 play-pause('#play7','#pause7');
 play-pause('#play8','#pause8');
 play-pause('#play9','#pause9');
-*/
 
+*/
     $(window).scroll(function() {
-    if ($(document).scrollTop() < $(window).height()){
+    if ($(document).scrollTop() < 2){
       $('nav.navbar-default').css('background-color','transparent');
     }  else {
       $('nav.navbar-default').css('background-color','white')   }

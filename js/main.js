@@ -383,6 +383,14 @@ $(document).ready(function () {
         animate();
     }, 4000);
 
+    
+    $(window).scroll(function() {
+    if ($(document).scrollTop() > $(window).height()) {
+      $(".navbar-default").addClass("test");
+    } else {
+      $(".navbar-default").removeClass("test");
+    }
+  });
 });
 
 (function($) {
@@ -427,3 +435,22 @@ $(document).ready(function () {
     new WOW().init();
 
 })(jQuery); // End of use strict
+//jQuery to collapse the navbar on scroll
+$(window).scroll(function() {
+    if ($(".navbar").offset().top > 50) {
+        $(".navbar-fixed-top").addClass("top-nav-collapse");
+    } else {
+        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+    }
+});
+
+//jQuery for page scrolling feature - requires jQuery Easing plugin
+$(function() {
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});

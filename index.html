@@ -23,6 +23,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/scrolling-nav.css">
 
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -31,6 +32,7 @@
 </head>
 
 <body>
+    <header id="top"></header>
     <div id="loader-wrapper">
         <div id="loader">
 
@@ -52,14 +54,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#happy-birthday">Happy Birthday</a>
+                    <a class="navbar-brand page-scroll" href="#top">Happy Birthday</a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li><a class="active" href="#">Home</a></li>
-                        <li><a href="#messages">Messages</a></li>
-                        <li><a href="#memories">Memories</a></li>
-                        <li><a href="#fb-comments">FB Comments</a></li>
+                        
+                        <li><a class="page-scroll" href="#messages">Messages</a></li>
+                        <li><a class="page-scroll" href="#memories">Memories</a></li>
+                        <li><a class="page-scroll" href="#fb-comments">FB Comments</a></li>
                     </ul>
 
                 </div>
@@ -168,14 +170,8 @@
             </audio>
             <br>
             <div class="container-fluid" id="overlay">
-                <br>
-                <div id="messages">
-
-                    <h2>MESSAGES</h2>
-
-
-                </div>
-                <br>
+                
+                <header id="messages"><br><br><br>
                 <div class="row">
                     <div class="col-sm-4">
                         <img class="img-circle" src="media/avatars/avatar-1.small.png">
@@ -235,7 +231,11 @@
 
                     </div>
                 </div>
-
+<header id="messages"><br><br><br>
+    <div class="row">
+    
+    
+    </div>
             </div>
     </div>
 
@@ -246,6 +246,8 @@
     <script src="js/TweenMax.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
+            <script src="js/scrolling-nav.js"></script>
+            <script src="js/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="js/smoothscroll.js"></script>
     <script>
         new WOW().init();

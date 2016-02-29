@@ -163,20 +163,20 @@ p {
 .loaded #loader-wrapper .loader-section.section-left {
     -webkit-transform: translateX(-100%);
     /* Chrome, Opera 15+, Safari 3.1+ */
-    
+
     -ms-transform: translateX(-100%);
     /* IE 9 */
-    
+
     transform: translateX(-100%);
     /* Firefox 16+, IE 10+, Opera */
 }
 .loaded #loader-wrapper .loader-section.section-right {
     -webkit-transform: translateX(100%);
     /* Chrome, Opera 15+, Safari 3.1+ */
-    
+
     -ms-transform: translateX(100%);
     /* IE 9 */
-    
+
     transform: translateX(100%);
     /* Firefox 16+, IE 10+, Opera */
 }
@@ -308,14 +308,14 @@ body {
 .test{
     background-color: #fff;
 }
-.play {
+#play1,#play2,#play3,#play4,#play5,#play6,#play7,#play8,#play9 {
     position: absolute;
     z-index: 2;
     height: 100px;
     width: 100px;
     cursor: pointer;
 }
-.pause {
+#pause1,#pause2,#pause3,#pause4,#pause5,#pause6,#pause7,#pause8,#pause9 {
     position: absolute;
     z-index: 0;
     height: 100px;
@@ -329,7 +329,7 @@ body {
 }
 
 .item {
-    
+
 }
 
 .cor {

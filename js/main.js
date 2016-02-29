@@ -382,16 +382,39 @@ $(document).ready(function () {
         $('body').addClass('loaded');
         animate();
     }, 4000);
-
-    $('.play').hover(function() {
-    $(this).addClass('animated pulse');
+    /*
+var ident1,ident2;
+function play-pause(ident1, ident2){
+  $(ident1).hover(function() {
+  $(ident1).addClass('animated pulse');
 }, function() {
-        $(this).removeClass('animated pulse')
-    });    
-    
-    $('.play').click(function(){
-        $('.pause').css('z-index',3)
-    });
+      $(ident1).removeClass('animated pulse')
+  });
+  $(ident2).hover(function() {
+  $(ident2).addClass('animated pulse');
+}, function() {
+      $(ident2).removeClass('animated pulse')
+  });
+$(ident1).click(function(){
+      $(ident2).css('z-index',3);
+      $(ident1).css('z-index',0);
+  });
+$(ident2).click(function(){
+  $(ident2).css('z-index',0);
+      $(ident1).css('z-index',3);
+
+});
+}
+play-pause('#play1','#pause1');
+play-pause('#play2','#pause2');
+play-pause('#play3','#pause3');
+play-pause('#play4','#pause4');
+play-pause('#play5','#pause5');
+play-pause('#play6','#pause6');
+play-pause('#play7','#pause7');
+play-pause('#play8','#pause8');
+play-pause('#play9','#pause9');
+*/
 
     $(window).scroll(function() {
     if ($(document).scrollTop() < $(window).height()){

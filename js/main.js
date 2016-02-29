@@ -383,13 +383,21 @@ $(document).ready(function () {
         animate();
     }, 4000);
 
+    $('.play').hover(function() {
+    $(this).addClass('animated pulse');
+}, function() {
+        $(this).removeClass('animated pulse')
+    });    
     
+    $('.play').click(function(){
+        $('.pause').css('z-index',3)
+    });
+
     $(window).scroll(function() {
-    if ($(document).scrollTop() > $(window).height()) {
-      $(".navbar-default").addClass("test");
-    } else {
-      $(".navbar-default").removeClass("test");
-    }
+    if ($(document).scrollTop() < $(window).height()){
+      $('nav.navbar-default').css('background-color','transparent');
+    }  else {
+      $('nav.navbar-default').css('background-color','white')   }
   });
 });
 

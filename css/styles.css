@@ -236,9 +236,7 @@ p {
 body {
     background-color: #FF6FBA;
 }
-.navbar-default {
-    background-color: #fff;
-}
+
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
     font-weight: 700;
@@ -310,14 +308,30 @@ body {
 .test{
     background-color: #fff;
 }
-#play {
+.play {
     position: absolute;
     z-index: 2;
     height: 100px;
     width: 100px;
+    cursor: pointer;
+}
+.pause {
+    position: absolute;
+    z-index: 0;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
 }
 
 .img-circle {
     position: relative;
     z-index: 1;
+}
+
+.item {
+    
+}
+
+.cor {
+    width: 100%;
 }

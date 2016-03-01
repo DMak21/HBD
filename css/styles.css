@@ -309,6 +309,8 @@ body {
     position: absolute;
     z-index: 2;
     cursor: pointer;
+    width: 100px;
+    height: 100px;
 }
 
 #pause1,
@@ -323,6 +325,8 @@ body {
     position: absolute;
     z-index: 0;
     cursor: pointer;
+    width: 100px;
+    height: 100px;
 }
 
 .img-circle {

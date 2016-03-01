@@ -357,7 +357,12 @@ document.getElementById("birthday-song").play();
     }
 }
 $(document).ready(function () {
-    $('body').on("swipe",function(){
+    $('.corous').slick({
+        autoplay: true
+    });
+        
+
+    $('#main').on("swipe",function(){
   document.getElementById("birthday-song").play();
 });
     setTimeout(

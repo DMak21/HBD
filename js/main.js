@@ -357,6 +357,9 @@ document.getElementById("birthday-song").play();
     }
 }
 $(document).ready(function () {
+    $('body').on("swipe",function(){
+  document.getElementById("birthday-song").play();
+});
     setTimeout(
         function () {
             //do something special
@@ -382,29 +385,30 @@ $(document).ready(function () {
         $('body').addClass('loaded');
         animate();
     }, 4000);
+
 /*
-var ident1,ident2;
-function play-pause(ident1, ident2){
-  $(ident1).hover(function() {
-  $(ident1).addClass('animated pulse');
+function play-pause('#play1', '#pause1'){
+  $('#play1').hover(function() {
+  $('#play1').addClass('animated pulse');
 }, function() {
-      $(ident1).removeClass('animated pulse')
+      $('#play1').removeClass('animated pulse')
   });
-  $(ident2).hover(function() {
-  $(ident2).addClass('animated pulse');
+  $('#pause1').hover(function() {
+  $('#pause1').addClass('animated pulse');
 }, function() {
-      $(ident2).removeClass('animated pulse')
+      $('#pause1').removeClass('animated pulse')
   });
-$(ident1).click(function(){
-      $(ident2).css('z-index',3);
-      $(ident1).css('z-index',0);
+$('#play1').click(function(){
+      $('#pause1').css('z-index',3);
+      $('#play1').css('z-index',0);
   });
-$(ident2).click(function(){
-  $(ident2).css('z-index',0);
-      $(ident1).css('z-index',3);
+$('#pause1').click(function(){
+  $('#pause1').css('z-index',0);
+      $('#play1').css('z-index',3);
 
 });
 }
+    /*
 play-pause('#play1','#pause1');
 play-pause('#play2','#pause2');
 play-pause('#play3','#pause3');

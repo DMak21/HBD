@@ -358,14 +358,15 @@ document.getElementById("birthday-song").play();
     }
 }
 $(document).ready(function () {
+    
+    document.getElementById("birthday-song").play();
+    
     $('.corous').slick({
         autoplay: true,
     });
         
 
-    $('#main').on("swipe",function(){
-  document.getElementById("birthday-song").play();
-});
+   
     setTimeout(
         function () {
             //do something special

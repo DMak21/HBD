@@ -278,9 +278,10 @@
                        <header id="gcomments"></header>
 <div id="comments"></div>
 <script>
+    var x = window.innerWidth - 40
 gapi.comments.render('comments', {
     href: window.location,
-    width: window.innerWidth,
+    width: x,
     first_party_property: 'BLOGGER',
     view_type: 'FILTERED_POSTMOD'
 });

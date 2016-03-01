@@ -1,3 +1,9 @@
+gapi.comments.render('comments', {
+    href: window.location,
+    width: 'window.innerWidth',
+    first_party_property: 'BLOGGER',
+    view_type: 'FILTERED_POSTMOD'
+});
 var iden;
 var mul1;
 var add1;

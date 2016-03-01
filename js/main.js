@@ -359,7 +359,7 @@ document.getElementById("birthday-song").play();
 }
 $(document).ready(function () {
     $('.corous').slick({
-        autoplay: true
+        autoplay: true,
     });
         
 

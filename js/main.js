@@ -358,8 +358,17 @@ document.getElementById("birthday-song").play();
     }
 }
 $(document).ready(function () {
+    function audioReady(){
+  return $.when.apply($, $('audio').map(function(){
+    var ready = new $.Deferred();
+    $(this).one('canplay', ready.resolve);
+    return ready.promise();
+  }));
+}
+audioReady().then(function(){
+  document.getElementById("birthday-song").play();
+});
     
-    document.getElementById("birthday-song").play();
     
     $('.corous').slick({
         autoplay: true,

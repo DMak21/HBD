@@ -386,8 +386,7 @@ $(document).ready(function () {
         animate();
     }, 4000);
 
-/*
-function play-pause('#play1', '#pause1'){
+
   $('#play1').hover(function() {
   $('#play1').addClass('animated pulse');
 }, function() {
@@ -407,19 +406,163 @@ $('#pause1').click(function(){
       $('#play1').css('z-index',3);
 
 });
-}
-    /*
-play-pause('#play1','#pause1');
-play-pause('#play2','#pause2');
-play-pause('#play3','#pause3');
-play-pause('#play4','#pause4');
-play-pause('#play5','#pause5');
-play-pause('#play6','#pause6');
-play-pause('#play7','#pause7');
-play-pause('#play8','#pause8');
-play-pause('#play9','#pause9');
+    
+    
+    
+ $('#play2').hover(function() {
+  $('#play2').addClass('animated pulse');
+}, function() {
+      $('#play2').removeClass('animated pulse')
+  });
+  $('#pause2').hover(function() {
+  $('#pause2').addClass('animated pulse');
+}, function() {
+      $('#pause2').removeClass('animated pulse')
+  });
+$('#play2').click(function(){
+      $('#pause2').css('z-index',3);
+      $('#play2').css('z-index',0);
+  });
+$('#pause2').click(function(){
+  $('#pause2').css('z-index',0);
+      $('#play2').css('z-index',3);
 
-*/
+});
+     $('#play3').hover(function() {
+  $('#play3').addClass('animated pulse');
+}, function() {
+      $('#play3').removeClass('animated pulse')
+  });
+  $('#pause3').hover(function() {
+  $('#pause3').addClass('animated pulse');
+}, function() {
+      $('#pause3').removeClass('animated pulse')
+  });
+$('#play3').click(function(){
+      $('#pause3').css('z-index',3);
+      $('#play3').css('z-index',0);
+  });
+$('#pause3').click(function(){
+  $('#pause3').css('z-index',0);
+      $('#play3').css('z-index',3);
+
+});
+     $('#play4').hover(function() {
+  $('#play4').addClass('animated pulse');
+}, function() {
+      $('#play4').removeClass('animated pulse')
+  });
+  $('#pause4').hover(function() {
+  $('#pause4').addClass('animated pulse');
+}, function() {
+      $('#pause4').removeClass('animated pulse')
+  });
+$('#play4').click(function(){
+      $('#pause4').css('z-index',3);
+      $('#play4').css('z-index',0);
+  });
+$('#pause4').click(function(){
+  $('#pause4').css('z-index',0);
+      $('#play4').css('z-index',3);
+
+});
+     $('#play5').hover(function() {
+  $('#play5').addClass('animated pulse');
+}, function() {
+      $('#play5').removeClass('animated pulse')
+  });
+  $('#pause5').hover(function() {
+  $('#pause5').addClass('animated pulse');
+}, function() {
+      $('#pause5').removeClass('animated pulse')
+  });
+$('#play5').click(function(){
+      $('#pause5').css('z-index',3);
+      $('#play5').css('z-index',0);
+  });
+$('#pause5').click(function(){
+  $('#pause5').css('z-index',0);
+      $('#play5').css('z-index',3);
+
+});
+     $('#play6').hover(function() {
+  $('#play6').addClass('animated pulse');
+}, function() {
+      $('#play6').removeClass('animated pulse')
+  });
+  $('#pause6').hover(function() {
+  $('#pause6').addClass('animated pulse');
+}, function() {
+      $('#pause6').removeClass('animated pulse')
+  });
+$('#play6').click(function(){
+      $('#pause6').css('z-index',3);
+      $('#play6').css('z-index',0);
+  });
+$('#pause6').click(function(){
+  $('#pause6').css('z-index',0);
+      $('#play6').css('z-index',3);
+
+});
+     $('#play7').hover(function() {
+  $('#play7').addClass('animated pulse');
+}, function() {
+      $('#play7').removeClass('animated pulse')
+  });
+  $('#pause7').hover(function() {
+  $('#pause7').addClass('animated pulse');
+}, function() {
+      $('#pause7').removeClass('animated pulse')
+  });
+$('#play7').click(function(){
+      $('#pause7').css('z-index',3);
+      $('#play7').css('z-index',0);
+  });
+$('#pause7').click(function(){
+  $('#pause7').css('z-index',0);
+      $('#play7').css('z-index',3);
+
+});
+     $('#play8').hover(function() {
+  $('#play8').addClass('animated pulse');
+}, function() {
+      $('#play8').removeClass('animated pulse')
+  });
+  $('#pause8').hover(function() {
+  $('#pause8').addClass('animated pulse');
+}, function() {
+      $('#pause8').removeClass('animated pulse')
+  });
+$('#play8').click(function(){
+      $('#pause8').css('z-index',3);
+      $('#play8').css('z-index',0);
+  });
+$('#pause8').click(function(){
+  $('#pause8').css('z-index',0);
+      $('#play8').css('z-index',3);
+
+});
+     $('#play9').hover(function() {
+  $('#play9').addClass('animated pulse');
+}, function() {
+      $('#play9').removeClass('animated pulse')
+  });
+  $('#pause9').hover(function() {
+  $('#pause9').addClass('animated pulse');
+}, function() {
+      $('#pause9').removeClass('animated pulse')
+  });
+$('#play9').click(function(){
+      $('#pause9').css('z-index',3);
+      $('#play9').css('z-index',0);
+  });
+$('#pause9').click(function(){
+  $('#pause9').css('z-index',0);
+      $('#play9').css('z-index',3);
+
+});
+    
+   
     $(window).scroll(function() {
     if ($(document).scrollTop() < 2){
       $('nav.navbar-default').css('background-color','transparent');

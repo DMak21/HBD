@@ -8,15 +8,15 @@ function ani(e, n, t, a, i) {
 
 function animate() {
     function e() {
-        TweenMax.to(document.getElementById("balloon4"), .5 * Math.random() + 3, {
+        TweenMax.to(document.getElementById("balloon4"), 3, {
             y: -800,
             repeat: 25,
             ease: Power0.easeNone
-        }), TweenMax.to(document.getElementById("balloon5"), Math.random() + 2.5, {
+        }), TweenMax.to(document.getElementById("balloon5"), 3.5, {
             y: -800,
             repeat: 25,
             ease: Power0.easeNone
-        }), TweenMax.to(document.getElementById("balloon6"), .5 * Math.random() + 3, {
+        }), TweenMax.to(document.getElementById("balloon6"), 3, {
             y: -800,
             repeat: 25,
             ease: Power0.easeNone

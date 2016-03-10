@@ -8,16 +8,28 @@ function ani(e, n, t, a, i) {
 
 function animate() {
     function e() {
-        TweenMax.to(document.getElementById("balloon4"), 3, {
-            y: -800,
+        TweenMax.fromTo(document.getElementById("balloon4"), 3, {
+            y: 400,
             repeat: 25,
             ease: Power0.easeNone
-        }), TweenMax.to(document.getElementById("balloon5"), 3.5, {
-            y: -800,
+        }, {
+            y: -400,
             repeat: 25,
             ease: Power0.easeNone
-        }), TweenMax.to(document.getElementById("balloon6"), 3, {
-            y: -800,
+        }), TweenMax.fromTo(document.getElementById("balloon5"), 3.5, {
+            y: 400,
+            repeat: 25,
+            ease: Power0.easeNone
+        }, {
+            y: -400,
+            repeat: 25,
+            ease: Power0.easeNone
+        }), TweenMax.fromTo(document.getElementById("balloon6"), 3, {
+            y: 400,
+            repeat: 25,
+            ease: Power0.easeNone
+        }, {
+            y: -400,
             repeat: 25,
             ease: Power0.easeNone
         })
@@ -123,19 +135,31 @@ function animate() {
             ani(document.getElementById("star49"), 160, 740, 164, 1493), setTimeout(arguments.callee, 750)
         }(), window.innerWidth >= 1841 && ! function () {
             ani(document.getElementById("star50"), 160, 740, 164, 1677), setTimeout(arguments.callee, 750)
-        }()), TweenMax.to(document.getElementById("balloon1"), .5 * Math.random() + 3, {
-            y: -800,
+        }()), TweenMax.fromTo(document.getElementById("balloon1"), 5.5, {
+            y: 1200,
             repeat: 25,
             ease: Power0.easeNone
-        }), TweenMax.to(document.getElementById("balloon2"), Math.random() + 2.5, {
-            y: -800,
+        }, {
+            y: -400,
             repeat: 25,
             ease: Power0.easeNone
-        }), TweenMax.to(document.getElementById("balloon3"), .5 * Math.random() + 3, {
-            y: -800,
+        }), TweenMax.fromTo(document.getElementById("balloon2"), 5.5, {
+            y: 1200,
             repeat: 25,
             ease: Power0.easeNone
-        }), setTimeout(e, 1800)
+        }, {
+            y: -400,
+            repeat: 25,
+            ease: Power0.easeNone
+        }), TweenMax.fromTo(document.getElementById("balloon3"), 5.5, {
+            y: 1200,
+            repeat: 25,
+            ease: Power0.easeNone
+        }, {
+            y: -400,
+            repeat: 25,
+            ease: Power0.easeNone
+        }), setTimeout(e, -1800)
 }
 var iden, mul1, add1, mul2, add2;
 $(document).ready(function () {
